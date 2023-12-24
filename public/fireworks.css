@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+canvas {
+  background: linear-gradient(#010614, #303030 80%, #404040);
+  display: block;
+}
+
+.btn-group-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
