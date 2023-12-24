@@ -14,9 +14,9 @@ const Menu = () => (
     <p>
       <a href="#gifts">Gifts</a>
     </p>
-    <p>
+    {/* <p>
       <a href="#github">Man</a>
-    </p>
+    </p> */}
   </>
 );
 
