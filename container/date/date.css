@@ -1,0 +1,164 @@
+.date {
+  background-color: rgb(1, 6, 20);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.data-title-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-title-section img {
+  width: 120px;
+}
+
+.date-title h2 {
+  font-family: var(--font-family);
+  color: #fff;
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+}
+.date-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.date-bar {
+  width: 40%;
+  height: 20px;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+  margin-bottom: 2rem;
+  /*backgeound for variety of browsers*/
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008000', endColorstr='#FF0C3B', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+}
+
+.date-countdown {
+  font-family: var(--font-family);
+  color: #fff;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1105px) {
+  .date-title h2 {
+    font-size: 60px;
+  }
+  .date-countdown {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1009px) {
+  .data-title-section img {
+    width: 100px;
+  }
+  .date-title h2 {
+    font-size: 50px;
+  }
+  .date-countdown {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 873px) {
+  .data-title-section img {
+    width: 90px;
+  }
+  .date-title h2 {
+    font-size: 40px;
+  }
+  .date-countdown {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 757px) {
+  .data-title-section img {
+    width: 80px;
+  }
+  .date-title h2 {
+    font-size: 30px;
+  }
+  .date-countdown {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .data-title-section img {
+    width: 70px;
+  }
+  .date-title h2 {
+    font-size: 25px;
+  }
+  .date-countdown {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .data-title-section img {
+    width: 60px;
+  }
+  .date-title h2 {
+    font-size: 18px;
+  }
+  .date-countdown {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .data-title-section img {
+    width: 50px;
+  }
+  .date-title h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .date-countdown {
+    font-size: 12px;
+  }
+}

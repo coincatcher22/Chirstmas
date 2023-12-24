@@ -1,0 +1,386 @@
+.gifts {
+  background-color: rgb(1, 6, 20);
+}
+.gifts-title {
+  padding: 2rem 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+  font-size: 35px;
+  margin-bottom: 2rem;
+}
+
+.gift-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.gift-bar {
+  width: 40%;
+  height: 20px;
+  border-bottom-left-radius: 5rem;
+  border-top-left-radius: 5rem;
+  margin-bottom: 2rem;
+  /*backgeound for variety of browsers*/
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008000', endColorstr='#FF0C3B', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+}
+.gifts-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gifts-wrapper p {
+  color: #fff;
+  font-family: var(--font-family);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.gift {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    108deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    108deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    108deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008000', endColorstr='#FF0C3B', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    108deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    108deg,
+    rgba(255, 12, 59, 1) 0%,
+    rgba(0, 128, 0, 1) 100%
+  );
+}
+
+.gift-image-wrapper {
+  background-color: #fff;
+  border: 4px solid #fff;
+  border-radius: 5rem;
+  padding: 1rem;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.gift-image-wrapper img {
+  width: 100px;
+}
+
+.giftButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gift-button-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.gift-button-btn p {
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 700px;
+}
+
+.gift-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 2rem 3rem;
+  border-radius: 0.8rem;
+  background-color: #076b40;
+  right: 20%;
+  top: 15%;
+  z-index: 5;
+}
+
+.ornament-gifts {
+  top: 0px;
+  margin-bottom: 3rem;
+}
+
+.gift-container h1 {
+  font-family: var(--font-family);
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.gift-container-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+.gift-container-image img {
+  width: 100%;
+}
+
+.gift-container-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(230, 0, 0);
+  padding: 1rem 2rem;
+  width: 20%;
+  border-radius: 2rem;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1650px) {
+  .gift-container {
+    padding: 0rem 2rem 3rem;
+    right: 32%;
+    top: 15%;
+  }
+
+  .ornament-gifts {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1357px) {
+  .gift-container {
+    padding: 0rem 2rem 3rem;
+    right: 30%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .gift-container {
+    padding: 0rem 2rem 3rem;
+    right: 28%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 1111px) {
+  .gift-container {
+    padding: 0rem 2rem 3rem;
+    right: 25%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .gift-container {
+    padding: 0rem 2rem 3rem;
+    right: 20%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .gift-container {
+    padding: 0rem 2rem 3rem;
+    right: 17%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gift-container {
+    right: 20%;
+    top: 15%;
+  }
+  .ornament-gifts {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .gifts-wrapper {
+    flex-direction: column;
+  }
+  .gift {
+    margin-bottom: 2rem;
+  }
+  .gift-container {
+    right: 17%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .gift-container {
+    right: 14%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .gift-container {
+    right: 20%;
+    top: 15%;
+  }
+  .gift-container h1 {
+    font-size: 30px;
+  }
+  .gift-container-image {
+    width: 150px;
+    height: 150px;
+  }
+  .ornament-gifts {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .gift-container {
+    right: 14%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .ornament-gifts {
+    width: 250px;
+  }
+  .gifts-title {
+    font-size: 29px;
+  }
+  .gift-container h1 {
+    font-size: 25px;
+  }
+  .gift-container-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .gift-container-close-btn {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .gifts-title {
+    font-size: 23px;
+  }
+  .gift-image-wrapper {
+    width: 100px;
+    height: 100px;
+  }
+  .gift-image-wrapper img {
+    width: 70px;
+  }
+  .gifts-wrapper p {
+    font-size: 14px;
+  }
+
+  .gift-button-btn {
+    padding: 0.2rem 1rem;
+  }
+  .gift-container {
+    right: 15%;
+    top: 15%;
+  }
+  .ornament-gifts {
+    width: 200px;
+  }
+  .gift-container h1 {
+    font-size: 21px;
+  }
+  .gift-container-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .gift-container-close-btn {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .gift-container {
+    right: 12%;
+    top: 15%;
+  }
+}

@@ -1,0 +1,151 @@
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+}
+
+.navigation-bar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-bar-logo img {
+  width: 80px;
+  cursor: pointer;
+}
+
+.navigation-bar-mobile-logo {
+  display: none;
+  flex-direction: start;
+}
+
+.navigation-bar-items {
+  display: flex;
+}
+.navigation-bar-items p {
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 2rem;
+}
+
+.navigation-bar-right-section {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-bar-account {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-bar-account p {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navigation-bar-account button {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #0a7c4b;
+  color: #fff;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.navigation-bar-menu {
+  display: none;
+  position: relative;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.navigation-bar-menu-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  border-radius: 0.8rem;
+  background-color: #076b40;
+  right: 0px;
+  top: 54px;
+  z-index: 5;
+}
+
+.navigation-bar-menu-container-links {
+  text-align: center;
+}
+
+.navigation-bar-menu-container-links p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  transition: all 1s;
+}
+
+.navigation-bar-menu-container-links p:hover {
+  color: rgba(255, 0, 0, 1);
+}
+
+.navigation-bar-menu-container-account {
+  display: none;
+}
+
+.navigation-bar-menu-container-account p {
+  font-size: 20px;
+}
+
+.navigation-bar-menu-container-account button {
+  background-color: rgba(255, 0, 0, 1);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+  .navigation-bar-items {
+    display: none;
+  }
+  .navigation-bar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navigation-bar {
+    padding: 1rem 2rem;
+  }
+  .navigation-bar-account {
+    display: none;
+  }
+  .navigation-bar-menu-container-account {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation-bar-logo img {
+    display: none;
+  }
+
+  .navigation-bar-mobile-logo {
+    display: flex;
+    flex-direction: start;
+  }
+}

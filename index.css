@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Indie+Flower&family=Macondo&family=Pacifico&family=Righteous&display=swap");
+
+:root {
+  --font-family: "Macondo", cursive;
+  --header-font-family-title: "Pacifico", cursive;
+  --header-font-family-p: "Indie Flower", cursive;
+}

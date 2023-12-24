@@ -1,0 +1,106 @@
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.clock-days {
+  font-family: var(--font-family);
+  font-size: 50px;
+  font-weight: 900;
+  margin-right: 2rem;
+  padding: 2rem;
+  border: 3px solid #fff;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.clock-hours {
+  font-family: var(--font-family);
+  font-size: 50px;
+  font-weight: 900;
+  margin-right: 2rem;
+  padding: 2rem;
+  border: 3px solid #fff;
+  border-radius: 2rem;
+  text-align: center;
+}
+.clock-minutes {
+  font-family: var(--font-family);
+  font-size: 50px;
+  font-weight: 900;
+  margin-right: 2rem;
+  padding: 2rem;
+  border: 3px solid #fff;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.clock-seconds {
+  font-family: var(--font-family);
+  font-size: 50px;
+  font-weight: 900;
+  margin-right: 2rem;
+  padding: 2rem;
+  border: 3px solid #fff;
+  border-radius: 2rem;
+  text-align: center;
+}
+@media screen and (max-width: 1050px) {
+  .clock-days,
+  .clock-hours,
+  .clock-minutes,
+  .clock-seconds {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .clock-days,
+  .clock-hours,
+  .clock-minutes,
+  .clock-seconds {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .clock-days,
+  .clock-hours,
+  .clock-minutes,
+  .clock-seconds {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .clock-days,
+  .clock-hours,
+  .clock-minutes,
+  .clock-seconds {
+    font-size: 15px;
+    margin-right: 1rem;
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .clock-days,
+  .clock-hours,
+  .clock-minutes,
+  .clock-seconds {
+    padding: 1.2rem;
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .clock-days,
+  .clock-hours,
+  .clock-minutes,
+  .clock-seconds {
+    padding: 0.5rem;
+    font-size: 13px;
+    border-radius: 1rem;
+  }
+}
