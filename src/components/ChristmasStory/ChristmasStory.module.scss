@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+
+.contentContainer {
+  > .title {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    @media (min-width: $grid-lg) {
+      font-size: 5rem;
+    }
+  }
+
+  .descriptionContainer {
+    font-size: 1.5rem;
+
+    img {
+      margin: auto;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

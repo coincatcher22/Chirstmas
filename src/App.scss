@@ -1,0 +1,47 @@
+// Reboot styles
+@import '~bootstrap-reboot';
+@import "styles/variables";
+@import "styles/helpers";
+@import "styles/responsive-video.scss";
+@import "styles/_last-story.scss";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.4s linear;
+  background-color: $light-background-color;
+  color: $light-text-color;
+  position: relative;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.dark-theme {
+  background-color: $dark-background-color;
+  color: $dark-text-color;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.christmasFont {
+  font-family: 'Oooh Baby', cursive;
+  line-height: 1.1;
+}

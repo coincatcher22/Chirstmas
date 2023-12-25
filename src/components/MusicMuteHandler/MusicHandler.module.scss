@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.contentContainer {
+  .icon {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    fill: #000000;
+    transition: all 0.2s linear;
+  }
+
+  .iconDark {
+    fill: #FFFFFF;
+  }
+}
