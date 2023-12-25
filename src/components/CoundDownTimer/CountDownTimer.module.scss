@@ -1,0 +1,36 @@
+.happyNewYearTitle{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.countDownContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.countDownItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countDownItemValue {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.countDownItemDescription {
+  font-family: 'Oooh Baby', cursive;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 480px) {
+  .countDownContainer {
+    font-size: 2rem;
+  }
+
+}

@@ -1,0 +1,36 @@
+@import "../../styles/variables";
+
+.header {
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+  background-color: $light-background-color;
+  transition: all 0.4s linear;
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    .logoContainer {
+      display: block;
+
+      img {
+        width: 160px;
+      }
+    }
+
+    .settingsContainer{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+  }
+}
+
+.headerDark {
+  background-color: $dark-background-color;
+}
+
+.headerShadow {
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+}
